@@ -34,6 +34,8 @@
 
 		<?php the_tags('<p class="post-tags"><span>'.__('Tags:','hueman').'</span> ','','</p>'); ?>
 
+		<?php do_action( 'hueman_after_author_bio' ); ?>
+
 		<?php if ( ( ot_get_option( 'author-bio' ) != 'off' ) && get_the_author_meta( 'description' ) ): ?>
 			<div class="author-bio">
 				<div class="bio-avatar"><?php echo get_avatar(get_the_author_meta('user_email'),'128'); ?></div>
@@ -42,8 +44,6 @@
 				<div class="clear"></div>
 			</div>
 		<?php endif; ?>
-
-		<?php do_action( 'hueman_after_author_bio' ); ?>
 
 		<?php if ( ot_get_option( 'post-nav' ) == 'content') { get_template_part('inc/post-nav'); } ?>
 
