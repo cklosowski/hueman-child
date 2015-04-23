@@ -1,0 +1,17 @@
+/*
+ Theme:          Hueman Child Theme
+ Theme URI:      https://www.kungfugrep.com
+ Description:    Hueman Child Theme
+ Author:         Chris Klosowski
+ Author URI:     https://www.kungfugrep.com
+ Template:       hueman
+ Version:        1.0.0
+*/
+ 
+@import url("../hueman/style.css");
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+.syntaxhighlighter {
+	font-size: 14px !important;
+}
