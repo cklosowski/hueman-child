@@ -7,11 +7,15 @@
  Template:       hueman
  Version:        1.0.0
 */
- 
+
 @import url("../hueman/style.css");
- 
+
 /* =Theme customization starts here
 ------------------------------------------------------- */
 .syntaxhighlighter {
 	font-size: 14px !important;
+}
+
+.entry.share {
+	padding-right: 0px;
 }
