@@ -19,3 +19,12 @@
 .entry.share {
 	padding-right: 0px;
 }
+
+.author-bio .bio-avatar:after {
+	display: none;
+}
+
+.chunkhost-ad .bio-avatar {
+	top: 50%;
+	transform: translateY(50%);
+}
