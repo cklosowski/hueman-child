@@ -28,3 +28,23 @@
 	top: 50%;
 	transform: translateY(50%);
 }
+
+.notebox .edd-extensions-wrapper {
+	overflow:auto;
+	text-align: center;
+}
+
+.notebox .edd-extension {
+	display: inline-block;
+	text-align: center;
+	margin: 8px;
+}
+
+#menu-tag-menus li:first-child {
+	background-color: #eee;
+}
+
+#menu-tag-menus li:first-child a {
+	color: #333;
+}
+
