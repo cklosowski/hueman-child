@@ -45,9 +45,15 @@
 			</div>
 		<?php endif; ?>
 
-		<?php if ( ot_get_option( 'post-nav' ) == 'content') { get_template_part('inc/post-nav'); } ?>
+		<?php if ( is_single() ): ?>
+			<h4 class="heading"><i class="fa fa-history"></i>Other posts from around this time</h4>
+			<ul class="post-nav group">
+				<li class="next"><?php next_post_link('%link', '<i class="fa fa-chevron-right"></i><strong>'.__('Next story', 'hueman').'</strong> <span>%title</span>'); ?></li>
+				<li class="previous"><?php previous_post_link('%link', '<i class="fa fa-chevron-left"></i><strong>'.__('Previous story', 'hueman').'</strong> <span>%title</span>'); ?></li>
+			</ul>
+		<?php endif; ?>
 
-		<?php if ( ot_get_option( 'related-posts' ) != '1' ) { get_template_part('inc/related-posts'); } ?>
+		<?php get_template_part('inc/related-posts'); ?>
 
 		<?php comments_template('/comments.php',true); ?>
 
