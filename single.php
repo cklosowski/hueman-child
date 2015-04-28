@@ -48,8 +48,8 @@
 		<?php if ( is_single() ): ?>
 			<h4 class="heading"><i class="fa fa-history"></i>Other posts from around this time</h4>
 			<ul class="post-nav group">
-				<li class="next"><?php next_post_link('%link', '<i class="fa fa-chevron-right"></i><strong>'.__('Next story', 'hueman').'</strong> <span>%title</span>'); ?></li>
-				<li class="previous"><?php previous_post_link('%link', '<i class="fa fa-chevron-left"></i><strong>'.__('Previous story', 'hueman').'</strong> <span>%title</span>'); ?></li>
+				<li class="next"><?php next_post_link('%link', '<i class="fa fa-chevron-right"></i><strong>Next Post</strong> <span>%title</span>'); ?></li>
+				<li class="previous"><?php previous_post_link('%link', '<i class="fa fa-chevron-left"></i><strong>Previous Post</strong> <span>%title</span>'); ?></li>
 			</ul>
 		<?php endif; ?>
 
