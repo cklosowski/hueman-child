@@ -53,3 +53,27 @@
 	padding-bottom: 2px;
 }
 
+.post-nav .twitter-follow {
+	background-color: #55ACEE;
+}
+
+.post-nav li.twitter-follow i,
+.post-nav li.twitter-follow strong,
+.post-nav li.twitter-follow span {
+	color: #fff;
+}
+
+.post-nav .twitter-follow li a i {
+	color: #fff;
+}
+
+.ssbp--theme-2 .ssbp-each-share {
+	display: none;
+}
+
+/** Mobiles!!!! */
+@media screen and (max-width: 719px) {
+	.site-title {
+		padding: 0px !important;
+	}
+}
